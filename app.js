@@ -54,20 +54,3 @@ document.querySelector('.again').addEventListener('click', function () {
   document.querySelector('.highscore').textContent = highScore;
   document.body.style.backgroundColor = '#222';
 });
-
-function updateScore() {
-  score--;
-  document.querySelector('.score').textContent = score;
-}
-
-function displayMessage(message) {
-  document.querySelector('.message').textContent = message;
-}
-
-function displayNumber(number) {
-  document.querySelector('.number').textContent = number;
-}
-
-function displayNumberStyleWidth(width) {
-  document.querySelector('.number').style.width = width;
-}
